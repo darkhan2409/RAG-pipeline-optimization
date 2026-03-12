@@ -46,7 +46,7 @@ flowchart LR
 | Метод | Коллекция | Чанков | Описание |
 |-------|-----------|--------|----------|
 | Fixed | `rag_fixed` | 71 | Naive RAG — фиксированный размер, без rewrite/rerank |
-| Recursive | `rag_recursive` | 70 | TokenTextSplitter с перекрытием |
+| Recursive | `rag_recursive` | 70 | SentenceSplitter с перекрытием |
 | Layout | `rag_layout` | 95 | MarkdownElementParser — сохраняет таблицы атомарно |
 | Semantic | `rag_semantic` | 45 | SemanticSplitterNodeParser — по смысловым границам |
 | Parent-Child | `rag_parent_child` | 120 | 120 leaf-нод (512t), родительский контекст 2048t |
