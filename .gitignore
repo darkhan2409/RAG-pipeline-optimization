@@ -1,0 +1,26 @@
+# Environment
+.env
+.venv/
+
+# Claude IDE
+.claude/
+
+# Qdrant local storage
+qdrant_data/
+
+# Notebook и датасеты (сданы отдельно)
+full_rag_pipeline.ipynb
+golden_dataset.json
+
+# Large experiment artifacts (optional — remove line to include)
+experiment_results.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

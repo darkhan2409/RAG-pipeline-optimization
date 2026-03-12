@@ -1,0 +1,35 @@
+# Core RAG
+llama-index==0.14.15
+llama-index-core==0.14.15
+llama-index-embeddings-openai==0.5.1
+llama-index-llms-openai==0.6.23
+llama-index-vector-stores-qdrant==0.9.1
+llama-index-readers-file==0.5.6
+llama-index-postprocessor-flag-embedding-reranker
+llama-index-retrievers-bm25
+
+# PDF Parsing
+llama-parse==0.6.54
+
+# Vector Store
+qdrant-client==1.17.0
+
+# Embeddings & Reranking
+openai==2.26.0
+sentence-transformers==5.2.3
+FlagEmbedding
+
+# BM25
+rank-bm25==0.2.2
+
+# Evaluation
+ragas==0.4.3
+langchain-openai==1.1.10
+
+# Data & Utils
+pandas==2.3.3
+numpy==2.3.5
+matplotlib==3.10.8
+tiktoken==0.12.0
+requests==2.32.5
+python-dotenv==1.2.1
